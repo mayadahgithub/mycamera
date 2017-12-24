@@ -1,0 +1,25 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>myphoto</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-card>
+   <img src={{currentphoto}}/>
+    <ion-card-content>
+      <ion-card-title>
+        take photo
+        </ion-card-title>
+      <p>
+        <button ion-button round (click)="takephoto()">Take photo</button>
+        <button ion-button round (click)=" getMyURL()">Take photo</button>
+        <img src={{imgSource}}/>
+
+    </ion-card-content>
+  </ion-card>
+</ion-content>
